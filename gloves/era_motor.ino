@@ -48,7 +48,6 @@ void loop() {
 
 void serialHandler(String cmd) {
   cmd.trim();
-  // FINGERS:90,60,120,80,100;VIBE:255,255,0,0,...
   int vidx = cmd.indexOf("VIBE:");
   if (vidx != -1) {
     String vibes = cmd.substring(vidx + 5);
