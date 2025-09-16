@@ -75,8 +75,7 @@ void serialHandler(String cmd) {
     }
   }
 if (vidx != -1) {
-  String vibes = cmd.substring(vidx + 5);  // 取 "VIBE:" 後的內容
-  // 去掉可能的結尾分號
+  String vibes = cmd.substring(vidx + 5);  
   if (vibes.length() && vibes.charAt(vibes.length() - 1) == ';') {
     vibes.remove(vibes.length() - 1);
   }
@@ -95,7 +94,6 @@ if (vidx != -1) {
     end = comma;              // 向前移動終點
   }
 
-  // 只驅動最後 6 筆對應的 6 顆震動馬達（VIBE_NUM 應為 6）
   for (int i = 0; i < VIBE_NUM; i++) {
     int val = vals[i];
     if (val > 0) {
