@@ -1,4 +1,0 @@
-<shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="#BBFFFFFF"/><!-- #CC = 約 80% 不透明的白，依需求可改 #88 或 #BB -->
-    <corners android:radius="24dp" />
-</shape>
