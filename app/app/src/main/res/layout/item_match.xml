@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/matchTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="比賽標題"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#222222" />  <!-- 加強標題顏色提升辨識 -->
+
+    <TextView
+        android:id="@+id/matchDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2025-09-02"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:paddingTop="4dp" />  <!-- 讓日期與標題分隔開 -->
+
+    <LinearLayout
+        android:id="@+id/watchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btnMobile"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ABDFF1"
+            android:text="手機觀看"
+            android:textColor="#0C4A60"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnVR"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ABDFF1"
+            android:text="VR觀看"
+            android:layout_marginStart="8dp"
+            android:textColor="#0C4A60"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>
