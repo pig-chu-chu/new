@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "844588476820",
+    "project_id": "feelwithus-37c24",
+    "storage_bucket": "feelwithus-37c24.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844588476820:android:cd63a91123299738650781",
+        "android_client_info": {
+          "package_name": "com.example.feelwithus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWjDsxWuVGpEdQ4KbmRg85-hT1W3FvYes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
